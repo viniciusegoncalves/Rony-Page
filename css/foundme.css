@@ -82,15 +82,15 @@
 
   .imagem-footer {
     position: relative;
-    max-width: 80%;
-    height: 450px;
+    max-width: 100%;
+    height: 350px;
     grid-row: 2;
   }
 
   .detalhe-footer-1,
   .detalhe-footer-2 {
     margin-bottom: 173px;
-    margin-right: 300px;
+    margin-right: 250px;
   }
 
   .detalhe-footer-3 {
