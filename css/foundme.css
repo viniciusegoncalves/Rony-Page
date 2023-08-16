@@ -88,11 +88,7 @@
   }
 
   .detalhe-footer-1,
-  .detalhe-footer-2 {
-    margin-bottom: 173px;
-    margin-right: 250px;
-  }
-
+  .detalhe-footer-2,
   .detalhe-footer-3 {
     display: none;
   }
