@@ -87,10 +87,17 @@
     grid-row: 2;
   }
 
-  .detalhe-footer-1,
+  .detalhe-footer-1 {
+    position: absolute;
+    align-self: center;
+    margin-right: 240px;
+    margin-top: 300px;
+  }
+
   .detalhe-footer-2,
   .detalhe-footer-3 {
     display: none;
   }
+
 
 }
