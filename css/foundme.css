@@ -87,13 +87,7 @@
     grid-row: 2;
   }
 
-  .detalhe-footer-1 {
-    position: absolute;
-    justify-self: left;
-    margin-bottom: 160px;
-    margin-left: 50px;
-  }
-
+  .detalhe-footer-1,
   .detalhe-footer-2,
   .detalhe-footer-3 {
     display: none;
