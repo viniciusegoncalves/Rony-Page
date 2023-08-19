@@ -92,15 +92,13 @@
   }
 
   .detalhe-footer-1 {
-    bottom: 180px;
-    left: -5px;
-    width: 100%;
-    height: 130px;
-    z-index: 1;
+    right: -65px;
+    margin-bottom: 175px;
   }
 
   .detalhe-footer-2,
   .detalhe-footer-3 {
     display: none;
   }
+
 }
