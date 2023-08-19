@@ -91,11 +91,7 @@
     grid-row: 2;
   }
 
-  .detalhe-footer-1 {
-    right: -65px;
-    margin-bottom: 175px;
-  }
-
+  .detalhe-footer-1,
   .detalhe-footer-2,
   .detalhe-footer-3 {
     display: none;
