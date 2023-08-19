@@ -84,12 +84,23 @@
     padding: 10px 10px;
   }
 
+  .container-contato::before {
+    position: absolute;
+    content: url(../img/detalhe-footer-1.svg);
+    top: -155px;
+    max-width: 50%;
+    right: 250px;
+    z-index: 3;
+  }
+
   .imagem-footer {
     position: relative;
-    max-width: 100%;
+    object-fit: cover;
+    width: 280px;
     height: 350px;
     grid-row: 2;
   }
+
 
   .detalhe-footer-1,
   .detalhe-footer-2,
