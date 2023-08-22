@@ -11,6 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Inter:wght@400;500&family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body class="cor-4">
     <header>
@@ -31,12 +34,14 @@
     <main>
       <section class="inicio font-1" id="inicio" aria-label="Início">
         <div class="container-texto-inicio">
-          <h2 class="cor-2 font-3">Oi, eu sou o</h2>
-          <h1 class="cor-3 font-4">Rony</h1>
+          <h2 data-anime="200" class="cor-2 font-3 fadeInDown">
+            Olá, meu nome é
+          </h2>
+          <h1 data-anime="400" class="cor-3 font-4 fadeInDown">Rony</h1>
         </div>
-        <div class="container-imagem-inicio">
+        <picture data-anime="600" class="container-imagem-inicio fadeInRight">
           <img class="imagem-inicio" src="./img/rony.png" alt="Rony" />
-        </div>
+        </picture>
       </section>
       <section aria-label="Sobre" class="sobre" id="about">
         <div class="sobre-titulo-container">
@@ -93,5 +98,7 @@
       <img src="img/detalhe-footer-2.svg" class="detalhe-footer-2" />
       <img src="img/detalhe-footer-3.svg" class="detalhe-footer-3" />
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
